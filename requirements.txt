@@ -1,0 +1,2 @@
+numpy>=1.21.0
+machine_learning_module
