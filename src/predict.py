@@ -13,12 +13,9 @@ from src.utils import predict_sentiment
 
 def load_model_and_preprocessor():
     """Load saved model and preprocessor"""
-    
-    # Load model
     model = ml.NeuralNetwork()
     model.load("models/sentiment_model.bin")
     
-    # Load preprocessor
     with open("models/preprocessor.pkl", "rb") as f:
         preprocessor_data = pickle.load(f)
     
@@ -29,7 +26,15 @@ def load_model_and_preprocessor():
     preprocessor.word_index = preprocessor_data['word_index']
     preprocessor.vocab_size = preprocessor_data['vocab_size']
     
-    return model, preprocessor
+    # Carica anche la soglia ottimale se salvata
+    threshold = 0.5
+    threshold_file = "models/optimal_threshold.pkl"
+    if os.path.exists(threshold_file):
+        with open(threshold_file, "rb") as f:
+            threshold = pickle.load(f)
+        print(f"✅ Using optimal threshold: {threshold:.2f}")
+    
+    return model, preprocessor, threshold
 
 def main():
     print("=" * 60)
@@ -40,7 +45,7 @@ def main():
     # Load model
     print("Loading model...")
     try:
-        model, preprocessor = load_model_and_preprocessor()
+        model, preprocessor, threshold = load_model_and_preprocessor()
         print("✅ Model loaded successfully!\n")
     except Exception as e:
         print(f"❌ Error loading model: {e}")
@@ -60,7 +65,7 @@ def main():
             continue
         
         try:
-            sentiment, proba = predict_sentiment(model, preprocessor, text)
+            sentiment, proba = predict_sentiment(model, preprocessor, text, threshold=threshold)
             emoji = "😊" if sentiment == "POSITIVE" else "😞"
             print(f"   {emoji} {sentiment} (confidence: {proba:.3f})")
         except Exception as e:

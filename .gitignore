@@ -10,6 +10,12 @@
 /output
 compila.txt
 
+# ignora cartella models e data e notebooks
+data/
+models/
+notebooks/
+
+
 # Ignora i file di output compilati, nel caso in cui finiscano altrove
 lib/*.o             # File oggetto
 lib/*.a             # Librerie statiche (come libml_algorithms.a)

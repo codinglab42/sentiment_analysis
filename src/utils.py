@@ -6,9 +6,6 @@ import machine_learning_module as ml
 from typing import Tuple, List
 
 def create_model(input_size: int, hidden_units: List[int]) -> ml.NeuralNetwork:
-    """Create a neural network for binary sentiment classification"""
-    
-    # Build layer sizes: input -> hidden layers -> output
     layer_sizes = [input_size] + hidden_units + [1]
     
     network = ml.NeuralNetwork(
@@ -16,11 +13,11 @@ def create_model(input_size: int, hidden_units: List[int]) -> ml.NeuralNetwork:
         activation="relu",
         output_activation="sigmoid",
         optimizer_type=ml.OptimizerType.ADAM,
-        learning_rate=0.001
+        learning_rate=0.01
     )
     network.set_loss_function("binary_crossentropy")
-    network.set_epochs(50)
-    network.set_batch_size(32)
+    network.set_epochs(200)  # Aumenta a 100
+    network.set_batch_size(64)
     network.set_validation_split(0.2)
     network.set_verbose(True)
     
@@ -49,19 +46,43 @@ def evaluate_model(model: ml.NeuralNetwork,
     
     return accuracy, precision, recall, f1
 
-def predict_sentiment(model: ml.NeuralNetwork,
-                      preprocessor,
-                      text: str,
-                      threshold: float = 0.5) -> Tuple[str, float]:
-    """Predict sentiment for a single text"""
+def find_optimal_threshold(model, X_val, y_val):
+    """Trova la soglia ottimale che massimizza l'F1 score"""
+    y_pred_proba = model.predict(X_val).flatten()
     
-    # Preprocess
+    best_threshold = 0.5
+    best_f1 = 0
+    
+    for threshold in np.arange(0.1, 0.9, 0.05):
+        y_pred = (y_pred_proba > threshold).astype(int)
+        
+        tp = np.sum((y_pred == 1) & (y_val == 1))
+        fp = np.sum((y_pred == 1) & (y_val == 0))
+        fn = np.sum((y_pred == 0) & (y_val == 1))
+        
+        precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+        recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+        f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0
+        
+        if f1 > best_f1:
+            best_f1 = f1
+            best_threshold = threshold
+    
+    print(f"   Optimal threshold: {best_threshold:.2f} (F1: {best_f1:.4f})")
+    return best_threshold
+
+def predict_sentiment(model, preprocessor, text, threshold=0.5):
+    """Predict sentiment with custom threshold"""
     X = preprocessor.transform([text])
-    
-    # Predict
     proba = model.predict(X)[0]
     
-    # Determine sentiment
-    sentiment = "POSITIVE" if proba > threshold else "NEGATIVE"
+    # Se la probabilità è troppo bassa, usa la soglia ottimale
+    # Ma per ora usiamo threshold personalizzabile
+    if proba > threshold:
+        sentiment = "NEGATIVE"
+        confidence = proba
+    else:
+        sentiment = "POSITIVE" 
+        confidence = 1 - proba
     
-    return sentiment, proba
+    return sentiment, confidence
