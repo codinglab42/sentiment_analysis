@@ -38,6 +38,7 @@ __pycache__/
 # Ignora l'ambiente virtuale (anche se pyenv gestisce versioni isolate, è buona norma)
 venv/
 env/
+.venv/
 
 # Artifacts di setuptools/pip (se compili moduli in modo standard)
 build/          # Regola generica di fallback per altre cartelle build

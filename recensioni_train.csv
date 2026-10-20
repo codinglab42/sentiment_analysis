@@ -1,53 +1,1001 @@
-text,sentiment
-"Mi è piaciuto molto il film, una storia coinvolgente e ben raccontata.",positive
-"Film bellissimo, attori bravissimi e finale emozionante.",positive
-"Una pellicola divertente, originale e piacevole da guardare.",positive
-"La regia è ottima e la fotografia è davvero stupenda.",positive
-"Mi sono emozionato dall'inizio alla fine, lo consiglio a tutti.",positive
-"Una grande interpretazione e una trama appassionante.",positive
-"Il film mi ha fatto ridere, pensare e divertire.",positive
-"Storia interessante, ritmo perfetto e personaggi memorabili.",positive
-"Un capolavoro, lo riguarderei volentieri.",positive
-"Attori fantastici e dialoghi brillanti, mi è piaciuto tantissimo.",positive
-"Una sorpresa bellissima, il finale è davvero soddisfacente.",positive
-"Film avvincente, non mi sono mai annoiato.",positive
-"La colonna sonora è meravigliosa e accompagna una storia stupenda.",positive
-"Un film tenero e divertente, adatto a tutta la famiglia.",positive
-"Mi è piaciuta la storia e ho adorato i personaggi.",positive
-"Recitazione convincente e sceneggiatura intelligente.",positive
-"Un'esperienza emozionante, lo consiglio senza esitazioni.",positive
-"Film riuscito, coinvolgente e pieno di momenti divertenti.",positive
-"La trama è originale, gli attori sono bravissimi.",positive
-"Mi ha sorpreso in positivo, davvero un bel film.",positive
-"Una commedia spassosa, ho riso per tutto il tempo.",positive
-"Bellissima fotografia e ottima regia, film eccellente.",positive
-"Personaggi interessanti e una storia che appassiona.",positive
-"Mi è piaciuto tutto, soprattutto il finale emozionante.",positive
-"Un film fantastico, divertente e ben recitato.",positive
-"Non mi è piaciuto, la storia era noiosa e prevedibile.",negative
-"Film terribile, recitazione pessima e finale deludente.",negative
-"Una pellicola lenta e confusa, mi sono annoiato.",negative
-"La trama non ha senso e i personaggi sono irritanti.",negative
-"Che brutta esperienza, non lo guarderei una seconda volta.",negative
-"Attori incapaci e dialoghi imbarazzanti.",negative
-"Il film è stato una delusione dall'inizio alla fine.",negative
-"Storia banale, ritmo lentissimo e finale assurdo.",negative
-"Un film brutto e noioso, non lo consiglio.",negative
-"La regia è pessima e la fotografia non salva il film.",negative
-"Mi aspettavo molto di più, è stato davvero deludente.",negative
-"Personaggi senza profondità e trama confusa.",negative
-"Non mi ha fatto ridere, la commedia è davvero scadente.",negative
-"Una storia prevedibile con una recitazione debole.",negative
-"Film orribile, ho perso tempo e mi sono pentito.",negative
-"La colonna sonora è fastidiosa e il finale è pessimo.",negative
-"Noioso, lento e senza momenti interessanti.",negative
-"Gli attori recitano male e i dialoghi sono banali.",negative
-"Un'esperienza deludente, non mi è piaciuto per niente.",negative
-"Trama debole e personaggi antipatici, film da evitare.",negative
-"È stato brutto, confuso e troppo lungo.",negative
-"Una pellicola mediocre, non la consiglierei a nessuno.",negative
-"Il finale è insoddisfacente e la storia non coinvolge.",negative
-"Non mi è piaciuto nulla, film davvero pessimo.",negative
-"Recitazione scarsa, sceneggiatura debole e ritmo noioso.",negative
-"Un film deludente e poco originale, mi ha annoiato.",negative
-"Terribile dall'inizio alla fine, una grande perdita di tempo.",negative
+text,sentiment,source
+"Mi è piaciuto molto il film, una storia coinvolgente e ben raccontata.",positive,existing
+"Film bellissimo, attori bravissimi e finale emozionante.",positive,existing
+"Una pellicola divertente, originale e piacevole da guardare.",positive,existing
+La regia è ottima e la fotografia è davvero stupenda.,positive,existing
+"Mi sono emozionato dall'inizio alla fine, lo consiglio a tutti.",positive,existing
+Una grande interpretazione e una trama appassionante.,positive,existing
+"Il film mi ha fatto ridere, pensare e divertire.",positive,existing
+"Storia interessante, ritmo perfetto e personaggi memorabili.",positive,existing
+"Un capolavoro, lo riguarderei volentieri.",positive,existing
+"Attori fantastici e dialoghi brillanti, mi è piaciuto tantissimo.",positive,existing
+"Una sorpresa bellissima, il finale è davvero soddisfacente.",positive,existing
+"Film avvincente, non mi sono mai annoiato.",positive,existing
+La colonna sonora è meravigliosa e accompagna una storia stupenda.,positive,existing
+"Un film tenero e divertente, adatto a tutta la famiglia.",positive,existing
+Mi è piaciuta la storia e ho adorato i personaggi.,positive,existing
+Recitazione convincente e sceneggiatura intelligente.,positive,existing
+"Un'esperienza emozionante, lo consiglio senza esitazioni.",positive,existing
+"Film riuscito, coinvolgente e pieno di momenti divertenti.",positive,existing
+"La trama è originale, gli attori sono bravissimi.",positive,existing
+"Mi ha sorpreso in positivo, davvero un bel film.",positive,existing
+"Una commedia spassosa, ho riso per tutto il tempo.",positive,existing
+"Bellissima fotografia e ottima regia, film eccellente.",positive,existing
+Personaggi interessanti e una storia che appassiona.,positive,existing
+"Mi è piaciuto tutto, soprattutto il finale emozionante.",positive,existing
+"Un film fantastico, divertente e ben recitato.",positive,existing
+"Non mi è piaciuto, la storia era noiosa e prevedibile.",negative,existing
+"Film terribile, recitazione pessima e finale deludente.",negative,existing
+"Una pellicola lenta e confusa, mi sono annoiato.",negative,existing
+La trama non ha senso e i personaggi sono irritanti.,negative,existing
+"Che brutta esperienza, non lo guarderei una seconda volta.",negative,existing
+Attori incapaci e dialoghi imbarazzanti.,negative,existing
+Il film è stato una delusione dall'inizio alla fine.,negative,existing
+"Storia banale, ritmo lentissimo e finale assurdo.",negative,existing
+"Un film brutto e noioso, non lo consiglio.",negative,existing
+La regia è pessima e la fotografia non salva il film.,negative,existing
+"Mi aspettavo molto di più, è stato davvero deludente.",negative,existing
+Personaggi senza profondità e trama confusa.,negative,existing
+"Non mi ha fatto ridere, la commedia è davvero scadente.",negative,existing
+Una storia prevedibile con una recitazione debole.,negative,existing
+"Film orribile, ho perso tempo e mi sono pentito.",negative,existing
+La colonna sonora è fastidiosa e il finale è pessimo.,negative,existing
+"Noioso, lento e senza momenti interessanti.",negative,existing
+Gli attori recitano male e i dialoghi sono banali.,negative,existing
+"Un'esperienza deludente, non mi è piaciuto per niente.",negative,existing
+"Trama debole e personaggi antipatici, film da evitare.",negative,existing
+"È stato brutto, confuso e troppo lungo.",negative,existing
+"Una pellicola mediocre, non la consiglierei a nessuno.",negative,existing
+Il finale è insoddisfacente e la storia non coinvolge.,negative,existing
+"Non mi è piaciuto nulla, film davvero pessimo.",negative,existing
+"Recitazione scarsa, sceneggiatura debole e ritmo noioso.",negative,existing
+"Un film deludente e poco originale, mi ha annoiato.",negative,existing
+"Terribile dall'inizio alla fine, una grande perdita di tempo.",negative,existing
+Mi è piaciuto il film: la regia è curata; inoltre la trama è coinvolgente.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre gli interpreti sono convincenti.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre il ritmo è ben calibrato.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre il finale è soddisfacente.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre i dialoghi sono brillanti.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre la fotografia è splendida.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre la colonna sonora è suggestiva.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre i personaggi sono credibili.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre la sceneggiatura è solida.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre le scene sono ben costruite.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre l'atmosfera è affascinante.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre la storia è originale.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre le interpretazioni sono intense.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre il montaggio è efficace.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre le ambientazioni sono suggestive.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre la narrazione è scorrevole.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre il tono è equilibrato.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre le emozioni sono autentiche.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre la visione è piacevole.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre la pellicola è ben realizzata.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre le idee sono sviluppate con intelligenza.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre il racconto mantiene viva l'attenzione.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre i momenti comici funzionano bene.,positive,synthetic
+Mi è piaciuto il film: la regia è curata; inoltre il film lascia una bella impressione.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre la regia è curata.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre gli interpreti sono convincenti.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre il ritmo è ben calibrato.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre il finale è soddisfacente.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre i dialoghi sono brillanti.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre la fotografia è splendida.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre la colonna sonora è suggestiva.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre i personaggi sono credibili.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre la sceneggiatura è solida.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre le scene sono ben costruite.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre l'atmosfera è affascinante.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre la storia è originale.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre le interpretazioni sono intense.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre il montaggio è efficace.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre le ambientazioni sono suggestive.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre la narrazione è scorrevole.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre il tono è equilibrato.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre le emozioni sono autentiche.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre la visione è piacevole.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre la pellicola è ben realizzata.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre le idee sono sviluppate con intelligenza.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre il racconto mantiene viva l'attenzione.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre i momenti comici funzionano bene.,positive,synthetic
+Mi è piaciuto il film: la trama è coinvolgente; inoltre il film lascia una bella impressione.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre la regia è curata.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre la trama è coinvolgente.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre il ritmo è ben calibrato.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre il finale è soddisfacente.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre i dialoghi sono brillanti.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre la fotografia è splendida.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre la colonna sonora è suggestiva.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre i personaggi sono credibili.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre la sceneggiatura è solida.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre le scene sono ben costruite.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre l'atmosfera è affascinante.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre la storia è originale.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre le interpretazioni sono intense.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre il montaggio è efficace.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre le ambientazioni sono suggestive.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre la narrazione è scorrevole.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre il tono è equilibrato.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre le emozioni sono autentiche.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre la visione è piacevole.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre la pellicola è ben realizzata.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre le idee sono sviluppate con intelligenza.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre il racconto mantiene viva l'attenzione.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre i momenti comici funzionano bene.,positive,synthetic
+Mi è piaciuto il film: gli interpreti sono convincenti; inoltre il film lascia una bella impressione.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre la regia è curata.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre la trama è coinvolgente.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre gli interpreti sono convincenti.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre il finale è soddisfacente.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre i dialoghi sono brillanti.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre la fotografia è splendida.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre la colonna sonora è suggestiva.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre i personaggi sono credibili.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre la sceneggiatura è solida.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre le scene sono ben costruite.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre l'atmosfera è affascinante.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre la storia è originale.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre le interpretazioni sono intense.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre il montaggio è efficace.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre le ambientazioni sono suggestive.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre la narrazione è scorrevole.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre il tono è equilibrato.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre le emozioni sono autentiche.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre la visione è piacevole.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre la pellicola è ben realizzata.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre le idee sono sviluppate con intelligenza.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre il racconto mantiene viva l'attenzione.,positive,synthetic
+Mi è piaciuto il film: il ritmo è ben calibrato; inoltre i momenti comici funzionano bene.,positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche la trama è coinvolgente.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche gli interpreti sono convincenti.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche il ritmo è ben calibrato.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche il finale è soddisfacente.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche i dialoghi sono brillanti.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche la fotografia è splendida.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche la colonna sonora è suggestiva.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche i personaggi sono credibili.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche la sceneggiatura è solida.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche le scene sono ben costruite.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche l'atmosfera è affascinante.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche la storia è originale.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche le interpretazioni sono intense.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche il montaggio è efficace.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche le ambientazioni sono suggestive.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche la narrazione è scorrevole.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche il tono è equilibrato.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche le emozioni sono autentiche.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche la visione è piacevole.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche la pellicola è ben realizzata.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche le idee sono sviluppate con intelligenza.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche il racconto mantiene viva l'attenzione.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche i momenti comici funzionano bene.",positive,synthetic
+"Ho apprezzato la pellicola perché la regia è curata, e anche il film lascia una bella impressione.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche la regia è curata.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche gli interpreti sono convincenti.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche il ritmo è ben calibrato.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche il finale è soddisfacente.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche i dialoghi sono brillanti.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche la fotografia è splendida.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche la colonna sonora è suggestiva.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche i personaggi sono credibili.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche la sceneggiatura è solida.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche le scene sono ben costruite.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche l'atmosfera è affascinante.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche la storia è originale.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche le interpretazioni sono intense.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche il montaggio è efficace.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche le ambientazioni sono suggestive.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche la narrazione è scorrevole.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche il tono è equilibrato.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche le emozioni sono autentiche.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche la visione è piacevole.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche la pellicola è ben realizzata.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche le idee sono sviluppate con intelligenza.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche il racconto mantiene viva l'attenzione.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche i momenti comici funzionano bene.",positive,synthetic
+"Ho apprezzato la pellicola perché la trama è coinvolgente, e anche il film lascia una bella impressione.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche la regia è curata.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche la trama è coinvolgente.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche il ritmo è ben calibrato.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche il finale è soddisfacente.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche i dialoghi sono brillanti.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche la fotografia è splendida.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche la colonna sonora è suggestiva.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche i personaggi sono credibili.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche la sceneggiatura è solida.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche le scene sono ben costruite.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche l'atmosfera è affascinante.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche la storia è originale.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche le interpretazioni sono intense.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche il montaggio è efficace.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche le ambientazioni sono suggestive.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche la narrazione è scorrevole.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche il tono è equilibrato.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche le emozioni sono autentiche.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche la visione è piacevole.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche la pellicola è ben realizzata.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche le idee sono sviluppate con intelligenza.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche il racconto mantiene viva l'attenzione.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche i momenti comici funzionano bene.",positive,synthetic
+"Ho apprezzato la pellicola perché gli interpreti sono convincenti, e anche il film lascia una bella impressione.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche la regia è curata.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche la trama è coinvolgente.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche gli interpreti sono convincenti.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche il finale è soddisfacente.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche i dialoghi sono brillanti.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche la fotografia è splendida.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche la colonna sonora è suggestiva.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche i personaggi sono credibili.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche la sceneggiatura è solida.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche le scene sono ben costruite.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche l'atmosfera è affascinante.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche la storia è originale.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche le interpretazioni sono intense.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche il montaggio è efficace.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche le ambientazioni sono suggestive.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche la narrazione è scorrevole.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche il tono è equilibrato.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche le emozioni sono autentiche.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche la visione è piacevole.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche la pellicola è ben realizzata.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche le idee sono sviluppate con intelligenza.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche il racconto mantiene viva l'attenzione.",positive,synthetic
+"Ho apprezzato la pellicola perché il ritmo è ben calibrato, e anche i momenti comici funzionano bene.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre la trama è coinvolgente.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre gli interpreti sono convincenti.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre il ritmo è ben calibrato.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre il finale è soddisfacente.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre i dialoghi sono brillanti.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre la fotografia è splendida.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre la colonna sonora è suggestiva.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre i personaggi sono credibili.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre la sceneggiatura è solida.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre le scene sono ben costruite.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre l'atmosfera è affascinante.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre la storia è originale.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre le interpretazioni sono intense.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre il montaggio è efficace.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre le ambientazioni sono suggestive.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre la narrazione è scorrevole.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre il tono è equilibrato.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre le emozioni sono autentiche.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre la visione è piacevole.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre la pellicola è ben realizzata.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre le idee sono sviluppate con intelligenza.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre il racconto mantiene viva l'attenzione.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre i momenti comici funzionano bene.",positive,synthetic
+"La visione mi ha convinto: la regia è curata, mentre il film lascia una bella impressione.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre la regia è curata.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre gli interpreti sono convincenti.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre il ritmo è ben calibrato.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre il finale è soddisfacente.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre i dialoghi sono brillanti.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre la fotografia è splendida.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre la colonna sonora è suggestiva.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre i personaggi sono credibili.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre la sceneggiatura è solida.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre le scene sono ben costruite.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre l'atmosfera è affascinante.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre la storia è originale.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre le interpretazioni sono intense.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre il montaggio è efficace.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre le ambientazioni sono suggestive.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre la narrazione è scorrevole.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre il tono è equilibrato.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre le emozioni sono autentiche.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre la visione è piacevole.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre la pellicola è ben realizzata.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre le idee sono sviluppate con intelligenza.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre il racconto mantiene viva l'attenzione.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre i momenti comici funzionano bene.",positive,synthetic
+"La visione mi ha convinto: la trama è coinvolgente, mentre il film lascia una bella impressione.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre la regia è curata.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre la trama è coinvolgente.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre il ritmo è ben calibrato.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre il finale è soddisfacente.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre i dialoghi sono brillanti.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre la fotografia è splendida.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre la colonna sonora è suggestiva.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre i personaggi sono credibili.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre la sceneggiatura è solida.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre le scene sono ben costruite.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre l'atmosfera è affascinante.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre la storia è originale.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre le interpretazioni sono intense.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre il montaggio è efficace.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre le ambientazioni sono suggestive.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre la narrazione è scorrevole.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre il tono è equilibrato.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre le emozioni sono autentiche.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre la visione è piacevole.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre la pellicola è ben realizzata.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre le idee sono sviluppate con intelligenza.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre il racconto mantiene viva l'attenzione.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre i momenti comici funzionano bene.",positive,synthetic
+"La visione mi ha convinto: gli interpreti sono convincenti, mentre il film lascia una bella impressione.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre la regia è curata.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre la trama è coinvolgente.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre gli interpreti sono convincenti.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre il finale è soddisfacente.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre i dialoghi sono brillanti.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre la fotografia è splendida.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre la colonna sonora è suggestiva.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre i personaggi sono credibili.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre la sceneggiatura è solida.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre le scene sono ben costruite.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre l'atmosfera è affascinante.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre la storia è originale.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre le interpretazioni sono intense.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre il montaggio è efficace.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre le ambientazioni sono suggestive.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre la narrazione è scorrevole.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre il tono è equilibrato.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre le emozioni sono autentiche.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre la visione è piacevole.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre la pellicola è ben realizzata.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre le idee sono sviluppate con intelligenza.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre il racconto mantiene viva l'attenzione.",positive,synthetic
+"La visione mi ha convinto: il ritmo è ben calibrato, mentre i momenti comici funzionano bene.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; la trama è coinvolgente.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; gli interpreti sono convincenti.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; il ritmo è ben calibrato.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; il finale è soddisfacente.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; i dialoghi sono brillanti.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; la fotografia è splendida.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; la colonna sonora è suggestiva.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; i personaggi sono credibili.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; la sceneggiatura è solida.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; le scene sono ben costruite.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; l'atmosfera è affascinante.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; la storia è originale.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; le interpretazioni sono intense.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; il montaggio è efficace.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; le ambientazioni sono suggestive.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; la narrazione è scorrevole.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; il tono è equilibrato.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; le emozioni sono autentiche.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; la visione è piacevole.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; la pellicola è ben realizzata.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; le idee sono sviluppate con intelligenza.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; il racconto mantiene viva l'attenzione.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; i momenti comici funzionano bene.",positive,synthetic
+"Per me è un film riuscito, dato che la regia è curata; il film lascia una bella impressione.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; la regia è curata.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; gli interpreti sono convincenti.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; il ritmo è ben calibrato.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; il finale è soddisfacente.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; i dialoghi sono brillanti.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; la fotografia è splendida.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; la colonna sonora è suggestiva.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; i personaggi sono credibili.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; la sceneggiatura è solida.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; le scene sono ben costruite.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; l'atmosfera è affascinante.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; la storia è originale.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; le interpretazioni sono intense.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; il montaggio è efficace.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; le ambientazioni sono suggestive.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; la narrazione è scorrevole.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; il tono è equilibrato.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; le emozioni sono autentiche.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; la visione è piacevole.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; la pellicola è ben realizzata.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; le idee sono sviluppate con intelligenza.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; il racconto mantiene viva l'attenzione.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; i momenti comici funzionano bene.",positive,synthetic
+"Per me è un film riuscito, dato che la trama è coinvolgente; il film lascia una bella impressione.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; la regia è curata.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; la trama è coinvolgente.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; il ritmo è ben calibrato.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; il finale è soddisfacente.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; i dialoghi sono brillanti.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; la fotografia è splendida.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; la colonna sonora è suggestiva.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; i personaggi sono credibili.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; la sceneggiatura è solida.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; le scene sono ben costruite.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; l'atmosfera è affascinante.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; la storia è originale.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; le interpretazioni sono intense.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; il montaggio è efficace.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; le ambientazioni sono suggestive.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; la narrazione è scorrevole.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; il tono è equilibrato.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; le emozioni sono autentiche.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; la visione è piacevole.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; la pellicola è ben realizzata.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; le idee sono sviluppate con intelligenza.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; il racconto mantiene viva l'attenzione.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; i momenti comici funzionano bene.",positive,synthetic
+"Per me è un film riuscito, dato che gli interpreti sono convincenti; il film lascia una bella impressione.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; la regia è curata.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; la trama è coinvolgente.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; gli interpreti sono convincenti.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; il finale è soddisfacente.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; i dialoghi sono brillanti.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; la fotografia è splendida.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; la colonna sonora è suggestiva.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; i personaggi sono credibili.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; la sceneggiatura è solida.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; le scene sono ben costruite.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; l'atmosfera è affascinante.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; la storia è originale.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; le interpretazioni sono intense.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; il montaggio è efficace.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; le ambientazioni sono suggestive.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; la narrazione è scorrevole.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; il tono è equilibrato.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; le emozioni sono autentiche.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; la visione è piacevole.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; la pellicola è ben realizzata.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; le idee sono sviluppate con intelligenza.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; il racconto mantiene viva l'attenzione.",positive,synthetic
+"Per me è un film riuscito, dato che il ritmo è ben calibrato; i momenti comici funzionano bene.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e la trama è coinvolgente completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e gli interpreti sono convincenti completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e il ritmo è ben calibrato completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e il finale è soddisfacente completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e i dialoghi sono brillanti completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e la fotografia è splendida completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e la colonna sonora è suggestiva completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e i personaggi sono credibili completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e la sceneggiatura è solida completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e le scene sono ben costruite completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e l'atmosfera è affascinante completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e la storia è originale completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e le interpretazioni sono intense completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e il montaggio è efficace completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e le ambientazioni sono suggestive completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e la narrazione è scorrevole completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e il tono è equilibrato completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e le emozioni sono autentiche completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e la visione è piacevole completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e la pellicola è ben realizzata completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e le idee sono sviluppate con intelligenza completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e il racconto mantiene viva l'attenzione completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e i momenti comici funzionano bene completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la regia è curata, e il film lascia una bella impressione completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e la regia è curata completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e gli interpreti sono convincenti completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e il ritmo è ben calibrato completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e il finale è soddisfacente completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e i dialoghi sono brillanti completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e la fotografia è splendida completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e la colonna sonora è suggestiva completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e i personaggi sono credibili completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e la sceneggiatura è solida completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e le scene sono ben costruite completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e l'atmosfera è affascinante completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e la storia è originale completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e le interpretazioni sono intense completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e il montaggio è efficace completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e le ambientazioni sono suggestive completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e la narrazione è scorrevole completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e il tono è equilibrato completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e le emozioni sono autentiche completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e la visione è piacevole completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e la pellicola è ben realizzata completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e le idee sono sviluppate con intelligenza completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e il racconto mantiene viva l'attenzione completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e i momenti comici funzionano bene completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: la trama è coinvolgente, e il film lascia una bella impressione completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e la regia è curata completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e la trama è coinvolgente completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e il ritmo è ben calibrato completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e il finale è soddisfacente completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e i dialoghi sono brillanti completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e la fotografia è splendida completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e la colonna sonora è suggestiva completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e i personaggi sono credibili completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e la sceneggiatura è solida completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e le scene sono ben costruite completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e l'atmosfera è affascinante completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e la storia è originale completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e le interpretazioni sono intense completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e il montaggio è efficace completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e le ambientazioni sono suggestive completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e la narrazione è scorrevole completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e il tono è equilibrato completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e le emozioni sono autentiche completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e la visione è piacevole completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e la pellicola è ben realizzata completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e le idee sono sviluppate con intelligenza completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e il racconto mantiene viva l'attenzione completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e i momenti comici funzionano bene completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: gli interpreti sono convincenti, e il film lascia una bella impressione completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e la regia è curata completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e la trama è coinvolgente completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e gli interpreti sono convincenti completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e il finale è soddisfacente completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e i dialoghi sono brillanti completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e la fotografia è splendida completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e la colonna sonora è suggestiva completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e i personaggi sono credibili completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e la sceneggiatura è solida completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e le scene sono ben costruite completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e l'atmosfera è affascinante completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e la storia è originale completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e le interpretazioni sono intense completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e il montaggio è efficace completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e le ambientazioni sono suggestive completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e la narrazione è scorrevole completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e il tono è equilibrato completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e le emozioni sono autentiche completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e la visione è piacevole completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e la pellicola è ben realizzata completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e le idee sono sviluppate con intelligenza completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e il racconto mantiene viva l'attenzione completa il risultato.",positive,synthetic
+"Lo consiglierei volentieri: il ritmo è ben calibrato, e i momenti comici funzionano bene completa il risultato.",positive,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre la trama è prevedibile.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre gli interpreti sono poco convincenti.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre il ritmo è mal calibrato.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre il finale è deludente.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre i dialoghi sono artificiosi.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre la fotografia è anonima.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre la colonna sonora è fastidiosa.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre i personaggi sono poco credibili.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre la sceneggiatura è debole.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre le scene sono mal costruite.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre l'atmosfera è piatta.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre la storia è banale.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre le interpretazioni sono forzate.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre il montaggio è inefficace.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre le ambientazioni sono poco curate.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre la narrazione è confusa.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre il tono è sbilanciato.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre le emozioni sembrano poco autentiche.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre la visione è faticosa.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre la pellicola è mal realizzata.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre le idee sono sviluppate senza coerenza.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre il racconto perde presto l'attenzione.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre i momenti comici non funzionano.,negative,synthetic
+Non mi è piaciuto il film: la regia è trascurata; inoltre il film lascia una brutta impressione.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre la regia è trascurata.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre gli interpreti sono poco convincenti.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre il ritmo è mal calibrato.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre il finale è deludente.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre i dialoghi sono artificiosi.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre la fotografia è anonima.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre la colonna sonora è fastidiosa.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre i personaggi sono poco credibili.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre la sceneggiatura è debole.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre le scene sono mal costruite.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre l'atmosfera è piatta.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre la storia è banale.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre le interpretazioni sono forzate.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre il montaggio è inefficace.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre le ambientazioni sono poco curate.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre la narrazione è confusa.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre il tono è sbilanciato.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre le emozioni sembrano poco autentiche.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre la visione è faticosa.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre la pellicola è mal realizzata.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre le idee sono sviluppate senza coerenza.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre il racconto perde presto l'attenzione.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre i momenti comici non funzionano.,negative,synthetic
+Non mi è piaciuto il film: la trama è prevedibile; inoltre il film lascia una brutta impressione.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre la regia è trascurata.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre la trama è prevedibile.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre il ritmo è mal calibrato.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre il finale è deludente.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre i dialoghi sono artificiosi.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre la fotografia è anonima.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre la colonna sonora è fastidiosa.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre i personaggi sono poco credibili.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre la sceneggiatura è debole.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre le scene sono mal costruite.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre l'atmosfera è piatta.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre la storia è banale.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre le interpretazioni sono forzate.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre il montaggio è inefficace.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre le ambientazioni sono poco curate.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre la narrazione è confusa.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre il tono è sbilanciato.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre le emozioni sembrano poco autentiche.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre la visione è faticosa.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre la pellicola è mal realizzata.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre le idee sono sviluppate senza coerenza.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre il racconto perde presto l'attenzione.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre i momenti comici non funzionano.,negative,synthetic
+Non mi è piaciuto il film: gli interpreti sono poco convincenti; inoltre il film lascia una brutta impressione.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre la regia è trascurata.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre la trama è prevedibile.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre gli interpreti sono poco convincenti.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre il finale è deludente.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre i dialoghi sono artificiosi.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre la fotografia è anonima.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre la colonna sonora è fastidiosa.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre i personaggi sono poco credibili.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre la sceneggiatura è debole.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre le scene sono mal costruite.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre l'atmosfera è piatta.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre la storia è banale.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre le interpretazioni sono forzate.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre il montaggio è inefficace.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre le ambientazioni sono poco curate.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre la narrazione è confusa.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre il tono è sbilanciato.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre le emozioni sembrano poco autentiche.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre la visione è faticosa.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre la pellicola è mal realizzata.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre le idee sono sviluppate senza coerenza.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre il racconto perde presto l'attenzione.,negative,synthetic
+Non mi è piaciuto il film: il ritmo è mal calibrato; inoltre i momenti comici non funzionano.,negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche la trama è prevedibile.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche gli interpreti sono poco convincenti.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche il ritmo è mal calibrato.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche il finale è deludente.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche i dialoghi sono artificiosi.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche la fotografia è anonima.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche la colonna sonora è fastidiosa.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche i personaggi sono poco credibili.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche la sceneggiatura è debole.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche le scene sono mal costruite.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche l'atmosfera è piatta.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche la storia è banale.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche le interpretazioni sono forzate.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche il montaggio è inefficace.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche le ambientazioni sono poco curate.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche la narrazione è confusa.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche il tono è sbilanciato.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche le emozioni sembrano poco autentiche.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche la visione è faticosa.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche la pellicola è mal realizzata.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche le idee sono sviluppate senza coerenza.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche il racconto perde presto l'attenzione.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche i momenti comici non funzionano.",negative,synthetic
+"La pellicola mi ha deluso perché la regia è trascurata, e anche il film lascia una brutta impressione.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche la regia è trascurata.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche gli interpreti sono poco convincenti.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche il ritmo è mal calibrato.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche il finale è deludente.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche i dialoghi sono artificiosi.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche la fotografia è anonima.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche la colonna sonora è fastidiosa.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche i personaggi sono poco credibili.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche la sceneggiatura è debole.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche le scene sono mal costruite.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche l'atmosfera è piatta.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche la storia è banale.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche le interpretazioni sono forzate.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche il montaggio è inefficace.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche le ambientazioni sono poco curate.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche la narrazione è confusa.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche il tono è sbilanciato.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche le emozioni sembrano poco autentiche.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche la visione è faticosa.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche la pellicola è mal realizzata.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche le idee sono sviluppate senza coerenza.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche il racconto perde presto l'attenzione.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche i momenti comici non funzionano.",negative,synthetic
+"La pellicola mi ha deluso perché la trama è prevedibile, e anche il film lascia una brutta impressione.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche la regia è trascurata.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche la trama è prevedibile.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche il ritmo è mal calibrato.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche il finale è deludente.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche i dialoghi sono artificiosi.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche la fotografia è anonima.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche la colonna sonora è fastidiosa.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche i personaggi sono poco credibili.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche la sceneggiatura è debole.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche le scene sono mal costruite.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche l'atmosfera è piatta.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche la storia è banale.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche le interpretazioni sono forzate.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche il montaggio è inefficace.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche le ambientazioni sono poco curate.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche la narrazione è confusa.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche il tono è sbilanciato.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche le emozioni sembrano poco autentiche.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche la visione è faticosa.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche la pellicola è mal realizzata.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche le idee sono sviluppate senza coerenza.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche il racconto perde presto l'attenzione.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche i momenti comici non funzionano.",negative,synthetic
+"La pellicola mi ha deluso perché gli interpreti sono poco convincenti, e anche il film lascia una brutta impressione.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche la regia è trascurata.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche la trama è prevedibile.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche gli interpreti sono poco convincenti.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche il finale è deludente.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche i dialoghi sono artificiosi.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche la fotografia è anonima.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche la colonna sonora è fastidiosa.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche i personaggi sono poco credibili.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche la sceneggiatura è debole.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche le scene sono mal costruite.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche l'atmosfera è piatta.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche la storia è banale.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche le interpretazioni sono forzate.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche il montaggio è inefficace.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche le ambientazioni sono poco curate.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche la narrazione è confusa.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche il tono è sbilanciato.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche le emozioni sembrano poco autentiche.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche la visione è faticosa.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche la pellicola è mal realizzata.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche le idee sono sviluppate senza coerenza.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche il racconto perde presto l'attenzione.",negative,synthetic
+"La pellicola mi ha deluso perché il ritmo è mal calibrato, e anche i momenti comici non funzionano.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre la trama è prevedibile.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre gli interpreti sono poco convincenti.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre il ritmo è mal calibrato.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre il finale è deludente.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre i dialoghi sono artificiosi.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre la fotografia è anonima.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre la colonna sonora è fastidiosa.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre i personaggi sono poco credibili.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre la sceneggiatura è debole.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre le scene sono mal costruite.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre l'atmosfera è piatta.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre la storia è banale.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre le interpretazioni sono forzate.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre il montaggio è inefficace.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre le ambientazioni sono poco curate.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre la narrazione è confusa.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre il tono è sbilanciato.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre le emozioni sembrano poco autentiche.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre la visione è faticosa.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre la pellicola è mal realizzata.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre le idee sono sviluppate senza coerenza.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre il racconto perde presto l'attenzione.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre i momenti comici non funzionano.",negative,synthetic
+"La visione non mi ha convinto: la regia è trascurata, mentre il film lascia una brutta impressione.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre la regia è trascurata.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre gli interpreti sono poco convincenti.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre il ritmo è mal calibrato.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre il finale è deludente.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre i dialoghi sono artificiosi.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre la fotografia è anonima.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre la colonna sonora è fastidiosa.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre i personaggi sono poco credibili.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre la sceneggiatura è debole.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre le scene sono mal costruite.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre l'atmosfera è piatta.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre la storia è banale.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre le interpretazioni sono forzate.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre il montaggio è inefficace.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre le ambientazioni sono poco curate.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre la narrazione è confusa.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre il tono è sbilanciato.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre le emozioni sembrano poco autentiche.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre la visione è faticosa.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre la pellicola è mal realizzata.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre le idee sono sviluppate senza coerenza.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre il racconto perde presto l'attenzione.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre i momenti comici non funzionano.",negative,synthetic
+"La visione non mi ha convinto: la trama è prevedibile, mentre il film lascia una brutta impressione.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre la regia è trascurata.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre la trama è prevedibile.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre il ritmo è mal calibrato.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre il finale è deludente.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre i dialoghi sono artificiosi.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre la fotografia è anonima.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre la colonna sonora è fastidiosa.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre i personaggi sono poco credibili.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre la sceneggiatura è debole.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre le scene sono mal costruite.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre l'atmosfera è piatta.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre la storia è banale.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre le interpretazioni sono forzate.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre il montaggio è inefficace.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre le ambientazioni sono poco curate.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre la narrazione è confusa.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre il tono è sbilanciato.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre le emozioni sembrano poco autentiche.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre la visione è faticosa.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre la pellicola è mal realizzata.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre le idee sono sviluppate senza coerenza.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre il racconto perde presto l'attenzione.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre i momenti comici non funzionano.",negative,synthetic
+"La visione non mi ha convinto: gli interpreti sono poco convincenti, mentre il film lascia una brutta impressione.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre la regia è trascurata.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre la trama è prevedibile.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre gli interpreti sono poco convincenti.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre il finale è deludente.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre i dialoghi sono artificiosi.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre la fotografia è anonima.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre la colonna sonora è fastidiosa.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre i personaggi sono poco credibili.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre la sceneggiatura è debole.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre le scene sono mal costruite.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre l'atmosfera è piatta.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre la storia è banale.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre le interpretazioni sono forzate.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre il montaggio è inefficace.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre le ambientazioni sono poco curate.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre la narrazione è confusa.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre il tono è sbilanciato.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre le emozioni sembrano poco autentiche.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre la visione è faticosa.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre la pellicola è mal realizzata.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre le idee sono sviluppate senza coerenza.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre il racconto perde presto l'attenzione.",negative,synthetic
+"La visione non mi ha convinto: il ritmo è mal calibrato, mentre i momenti comici non funzionano.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; la trama è prevedibile.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; gli interpreti sono poco convincenti.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; il ritmo è mal calibrato.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; il finale è deludente.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; i dialoghi sono artificiosi.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; la fotografia è anonima.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; la colonna sonora è fastidiosa.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; i personaggi sono poco credibili.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; la sceneggiatura è debole.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; le scene sono mal costruite.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; l'atmosfera è piatta.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; la storia è banale.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; le interpretazioni sono forzate.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; il montaggio è inefficace.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; le ambientazioni sono poco curate.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; la narrazione è confusa.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; il tono è sbilanciato.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; le emozioni sembrano poco autentiche.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; la visione è faticosa.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; la pellicola è mal realizzata.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; le idee sono sviluppate senza coerenza.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; il racconto perde presto l'attenzione.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; i momenti comici non funzionano.",negative,synthetic
+"Per me è un film deludente, dato che la regia è trascurata; il film lascia una brutta impressione.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; la regia è trascurata.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; gli interpreti sono poco convincenti.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; il ritmo è mal calibrato.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; il finale è deludente.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; i dialoghi sono artificiosi.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; la fotografia è anonima.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; la colonna sonora è fastidiosa.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; i personaggi sono poco credibili.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; la sceneggiatura è debole.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; le scene sono mal costruite.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; l'atmosfera è piatta.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; la storia è banale.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; le interpretazioni sono forzate.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; il montaggio è inefficace.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; le ambientazioni sono poco curate.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; la narrazione è confusa.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; il tono è sbilanciato.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; le emozioni sembrano poco autentiche.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; la visione è faticosa.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; la pellicola è mal realizzata.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; le idee sono sviluppate senza coerenza.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; il racconto perde presto l'attenzione.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; i momenti comici non funzionano.",negative,synthetic
+"Per me è un film deludente, dato che la trama è prevedibile; il film lascia una brutta impressione.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; la regia è trascurata.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; la trama è prevedibile.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; il ritmo è mal calibrato.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; il finale è deludente.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; i dialoghi sono artificiosi.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; la fotografia è anonima.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; la colonna sonora è fastidiosa.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; i personaggi sono poco credibili.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; la sceneggiatura è debole.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; le scene sono mal costruite.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; l'atmosfera è piatta.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; la storia è banale.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; le interpretazioni sono forzate.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; il montaggio è inefficace.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; le ambientazioni sono poco curate.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; la narrazione è confusa.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; il tono è sbilanciato.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; le emozioni sembrano poco autentiche.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; la visione è faticosa.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; la pellicola è mal realizzata.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; le idee sono sviluppate senza coerenza.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; il racconto perde presto l'attenzione.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; i momenti comici non funzionano.",negative,synthetic
+"Per me è un film deludente, dato che gli interpreti sono poco convincenti; il film lascia una brutta impressione.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; la regia è trascurata.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; la trama è prevedibile.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; gli interpreti sono poco convincenti.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; il finale è deludente.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; i dialoghi sono artificiosi.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; la fotografia è anonima.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; la colonna sonora è fastidiosa.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; i personaggi sono poco credibili.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; la sceneggiatura è debole.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; le scene sono mal costruite.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; l'atmosfera è piatta.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; la storia è banale.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; le interpretazioni sono forzate.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; il montaggio è inefficace.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; le ambientazioni sono poco curate.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; la narrazione è confusa.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; il tono è sbilanciato.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; le emozioni sembrano poco autentiche.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; la visione è faticosa.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; la pellicola è mal realizzata.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; le idee sono sviluppate senza coerenza.",negative,synthetic
+"Per me è un film deludente, dato che il ritmo è mal calibrato; il racconto perde presto l'attenzione.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e la trama è prevedibile peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e gli interpreti sono poco convincenti peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e il ritmo è mal calibrato peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e il finale è deludente peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e i dialoghi sono artificiosi peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e la fotografia è anonima peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e la colonna sonora è fastidiosa peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e i personaggi sono poco credibili peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e la sceneggiatura è debole peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e le scene sono mal costruite peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e l'atmosfera è piatta peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e la storia è banale peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e le interpretazioni sono forzate peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e il montaggio è inefficace peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e le ambientazioni sono poco curate peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e la narrazione è confusa peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e il tono è sbilanciato peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e le emozioni sembrano poco autentiche peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e la visione è faticosa peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e la pellicola è mal realizzata peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e le idee sono sviluppate senza coerenza peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e il racconto perde presto l'attenzione peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e i momenti comici non funzionano peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la regia è trascurata, e il film lascia una brutta impressione peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e la regia è trascurata peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e gli interpreti sono poco convincenti peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e il ritmo è mal calibrato peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e il finale è deludente peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e i dialoghi sono artificiosi peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e la fotografia è anonima peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e la colonna sonora è fastidiosa peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e i personaggi sono poco credibili peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e la sceneggiatura è debole peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e le scene sono mal costruite peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e l'atmosfera è piatta peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e la storia è banale peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e le interpretazioni sono forzate peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e il montaggio è inefficace peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e le ambientazioni sono poco curate peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e la narrazione è confusa peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e il tono è sbilanciato peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e le emozioni sembrano poco autentiche peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e la visione è faticosa peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e la pellicola è mal realizzata peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e le idee sono sviluppate senza coerenza peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e il racconto perde presto l'attenzione peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e i momenti comici non funzionano peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: la trama è prevedibile, e il film lascia una brutta impressione peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e la regia è trascurata peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e la trama è prevedibile peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e il ritmo è mal calibrato peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e il finale è deludente peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e i dialoghi sono artificiosi peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e la fotografia è anonima peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e la colonna sonora è fastidiosa peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e i personaggi sono poco credibili peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e la sceneggiatura è debole peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e le scene sono mal costruite peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e l'atmosfera è piatta peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e la storia è banale peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e le interpretazioni sono forzate peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e il montaggio è inefficace peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e le ambientazioni sono poco curate peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e la narrazione è confusa peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e il tono è sbilanciato peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e le emozioni sembrano poco autentiche peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e la visione è faticosa peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e la pellicola è mal realizzata peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e le idee sono sviluppate senza coerenza peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e il racconto perde presto l'attenzione peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e i momenti comici non funzionano peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: gli interpreti sono poco convincenti, e il film lascia una brutta impressione peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e la regia è trascurata peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e la trama è prevedibile peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e gli interpreti sono poco convincenti peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e il finale è deludente peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e i dialoghi sono artificiosi peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e la fotografia è anonima peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e la colonna sonora è fastidiosa peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e i personaggi sono poco credibili peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e la sceneggiatura è debole peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e le scene sono mal costruite peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e l'atmosfera è piatta peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e la storia è banale peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e le interpretazioni sono forzate peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e il montaggio è inefficace peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e le ambientazioni sono poco curate peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e la narrazione è confusa peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e il tono è sbilanciato peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e le emozioni sembrano poco autentiche peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e la visione è faticosa peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e la pellicola è mal realizzata peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e le idee sono sviluppate senza coerenza peggiora il risultato.",negative,synthetic
+"Non lo consiglierei: il ritmo è mal calibrato, e il racconto perde presto l'attenzione peggiora il risultato.",negative,synthetic
