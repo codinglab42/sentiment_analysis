@@ -34,13 +34,34 @@ def load_ml_core() -> ModuleType:
         if error.name != "ml_core":
             raise
 
-    for build_dir in (
+    build_dirs = [
+        ML_PROJECT_ROOT / "src",
         ML_PROJECT_ROOT / "build" / "pybinding",
         ML_PROJECT_ROOT / "build" / "lib",
-    ):
+    ]
+    build_root = ML_PROJECT_ROOT / "build"
+    if build_root.is_dir():
+        build_dirs.extend(sorted(build_root.glob("lib.*")))
+
+    for build_dir in build_dirs:
         if build_dir.is_dir():
-            sys.path.insert(0, str(build_dir))
-    return importlib.import_module("ml_core")
+            build_path = str(build_dir)
+            if build_path not in sys.path:
+                sys.path.insert(0, build_path)
+    try:
+        return importlib.import_module("ml_core")
+    except ModuleNotFoundError as error:
+        if error.name != "ml_core":
+            raise
+        if sys.version_info[:2] != (3, 11):
+            raise RuntimeError(
+                "ml_core requires Python 3.11 (machineLearning supports "
+                ">=3.11,<3.12); run this project with Python 3.11."
+            ) from error
+        raise ModuleNotFoundError(
+            "ml_core is not installed and no compatible sibling build was found; "
+            "build or install the machineLearning project first."
+        ) from error
 
 
 def extract_terms(text: str) -> list[str]:
