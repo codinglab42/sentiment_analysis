@@ -15,21 +15,16 @@ da quelli usati per addestrare il modello.
 ## Requisiti
 
 La libreria `machineLearning` richiede Python 3.11 (`>=3.11,<3.12`) e NumPy.
-Usa quindi un ambiente Python 3.11 e installa o compila prima `machineLearning`.
-Se i due progetti sono cartelle sorelle, gli script cercano automaticamente
-anche il modulo compilato nelle directory `machineLearning/src` e
+Questo progetto seleziona l'ambiente pyenv `ai-devel` (Python 3.11); usa
+quell'interprete anche in VS Code. Se i due progetti sono cartelle sorelle, gli
+script trovano il modulo compilato in `machineLearning/src` e
 `machineLearning/build`.
 
 ## Esecuzione
 
 ```bash
-python3.11 -m venv .venv
-source .venv/bin/activate
-python -m pip install numpy
-
-cd ../machineLearning
-python -m pip install -e .
-cd ../sentiment_analysis
+python --version
+python -m pip install -e ../machineLearning
 
 python train_sentiment.py recensioni_train.csv
 python predict_sentiment.py
